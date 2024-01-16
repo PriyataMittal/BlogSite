@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/home.css">
+
+</head>
+<body>
+        <nav class="navbar">
+
+                <div class="logo"><a href="file:///C:/Users/mitta/OneDrive/Desktop/blog/HTML/home.html">Your Draft</a> </div>
+                <ul>
+                
+                    <li class="topitem"><a href="file:///C:/Users/mitta/OneDrive/Desktop/blog/HTML/form.html">START HERE </a> </li>
+                    <li class="topitem"><a href="file:///C:/Users/mitta/OneDrive/Desktop/blog/HTML/about.html">About</a> </li>
+                    <li class="topitem"><input type="text" placeholder="Search here"></li>
+                    <button><a href="file:///C:/Users/mitta/OneDrive/Desktop/blog/HTML/login.html">login / Register</a> </button>
+                    
+                    
+                </ul>
+            
+</nav>
+
+<div class="containers">
+    <div class='sideSection'>
+
+        <div class='userInfo'>
+            <img src="{user}" class='userImg'/>
+            <h1>{token.name}</h1>
+            <button onclick="{handleLogOut}" class='logout'>Log Out</button>
+        </div>
+        <!-- functionalities -->
+        
+        <div class='fun'>
+            <p class='common-fun active-fun link '> <a href="/dashboard/dashAuth" > DashBoard</a> </p>
+            <p class='common-fun active-fun link '> <a href="/dashboard/addBlog"  > Add Blog</a> </p>
+            <p class='common-fun active-fun '>All Blogs</p>
+            <p class='common-fun active-fun ' onclick="{handleHomePageClick}">Homepage</p>
+        </div>
+    
+    </div>
+
+    
+</div>
+    
+</body>
+</html>
